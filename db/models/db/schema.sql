@@ -21,8 +21,8 @@ CREATE TABLE users(
     country VARCHAR(255),
     email VARCHAR(255),
     password VARCHAR(255),
+   
     role_id INT,
-
     FOREIGN KEY (role_id) REFERENCES roles(role_id),
     is_deleted TINYINT DEFAULT 0,
     PRIMARY KEY (id)

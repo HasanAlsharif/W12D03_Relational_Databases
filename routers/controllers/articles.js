@@ -1,3 +1,4 @@
+const db = require('../../db/models/db/db') 
 const articlesModel = require('./../../db/models/articles');
 
 const getAllArticles = (req, res) => {

@@ -1,3 +1,4 @@
+const db = require('../../db/models/db/db') 
 const usersModel = require('./../../db/models/users');
 
 const login = (req, res) => {

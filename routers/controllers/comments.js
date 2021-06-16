@@ -1,3 +1,4 @@
+const db = require('../../db/models/db/db') 
 const commentsModel = require('./../../db/models/comments');
 
 const createNewComment = (req, res) => {
